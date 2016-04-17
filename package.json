@@ -1,0 +1,15 @@
+{
+  "name": "tdd-todos",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  },
+  "scripts": {
+    "chimp-watch": "./node_modules/.bin/chimp --ddp=http://localhost:3000 --watch --mocha --path=tests",
+    "chimp-test": "./node_modules/.bin/chimp --mocha --path=tests --browser=firefox"
+  }
+
+}
